@@ -13,39 +13,39 @@
 }
 #home{
     width: 10px;
-    fill: rgb(255, 255, 255);
+    fill: rgb(0, 0, 0);
     width:25px;
     margin-bottom:90px;
 }
 
 #home:hover{
-   fill: #c29306 ;
+   fill: #000000 ;
 }
 .menu{
     font-family:Arial, Helvetica, sans-serif;
     font-size:15px;
     text-align:center;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-bottom:90px;
    
 
 
 }
 .menu:hover{
-    color: #c29306;
+    color: #000000;
 }
 .back{
     padding: 5px 15px 5px 15px;
-    border: 1px solid#0d111b;
+    border: 1px  linear-gradient(#ffffff , #ffffff);;
     border-radius: 5px;
-   background-color: #0d111b ;
+    background-image:  linear-gradient(#ffffff , #ffffff);;
    height: 25px;
  
 }
 #sun{
     padding: 15px 15px 15px 15px;
     border: 1px solid#0d111b;
-    border-radius: 50%;
+    border-radius:100%;
    background-color: #0d111b ;
    margin-bottom: 0px;
    text-align: center;
@@ -53,12 +53,12 @@
 #sahar{
     font-size: 48px;
     font-family: Arial, Helvetica, sans-serif
-    ;color: white;
+    ;color: rgb(0, 0, 0);
     text-align: center;
     margin: middle;
 }
 #graphic{
-  color:#c29306 ;  
+  color:#6b6b6b ;  
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   text-align: center;
@@ -79,6 +79,30 @@
 .icon:hover{
    fill: #c29306 ;}
 
+   #firstt{
+    padding: 5px 15px 5px 15px;
+    border: 1px  linear-gradient(#e94175 , #fe5f5c);;
+    border-radius: 5px;
+    background-image:  linear-gradient(#e94175 , #fe5f5c);;
+   height: 25px;
+
+   }
+   #firsticon{
+    width: 10px;
+    fill: rgb(255, 255, 255);
+    width:25px;
+    margin-bottom:90px; 
+
+   }
+   #first{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    text-align:center;
+    color: white;
+    margin-bottom:90px
+
+   }
+
           
         </style>
 
@@ -94,11 +118,11 @@
                             <img src="sahar.png" width="300px" valign="center" margin-top="200px">             
                         </td>
                         <td width="8.5%">
-                            <div class="back">
+                            <div id="firstt">
                             <table  >
                                 <tr>
                                     <td>
-                                        <svg id="home" viewBox="0 0 58.365 58.365" > <path d="M57.863,26.632l-8.681-8.061V5.365h-10v3.921L29.182,0L0.502,26.632c-0.404,0.376-0.428,1.009-0.052,1.414
+                                        <svg id="firsticon" viewBox="0 0 58.365 58.365" > <path d="M57.863,26.632l-8.681-8.061V5.365h-10v3.921L29.182,0L0.502,26.632c-0.404,0.376-0.428,1.009-0.052,1.414
                                             c0.375,0.404,1.008,0.427,1.414,0.052l3.319-3.082v33.349h16h16h16V25.015l3.319,3.082c0.192,0.179,0.437,0.267,0.681,0.267
                                             c0.269,0,0.536-0.107,0.732-0.319C58.291,27.641,58.267,27.008,57.863,26.632z M41.182,7.365h6v9.349l-6-5.571V7.365z
                                              M23.182,56.365V35.302c0-0.517,0.42-0.937,0.937-0.937h10.126c0.517,0,0.937,0.42,0.937,0.937v21.063H23.182z M51.182,56.365h-14
@@ -106,7 +130,7 @@
                                             l5.72,5.311v0l2,1.857V56.365z"/></svg>
                                     </td>
                                     <td valign="top">
-                                        <h5 class="menu">Home</h5>
+                                        <h5 id="first">Home</h5>
                                     </td>
                                 </tr>
                             </table>
@@ -352,7 +376,7 @@
                                 <tr>
                                     <td width="35%"></td>
                                     <td width="30%">
-                                        <img src="63457 copy.png" width="350px">
+                                        <img src="63457 copy.png" width="450px">
                                     </td>
                                     <td width="35%"></td>
                                 </tr>
